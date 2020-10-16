@@ -1,50 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd25405-ba6c-42c0-ac53-f245e45f2d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/master.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/welcome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bookingcare-2020.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bookingcare-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dichvu_xetnghiem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kham_chuyenkhoa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kham_nhakhoa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kham_tongquat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kham_tuxa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/suckhoe_tinhthan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ajax-request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/master.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/booking-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/booking-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +122,11 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
     </include_path>
   </component>
   <component name="ProjectId" id="1irV4abp1eYw4KYS6dUol9elibb" />
@@ -165,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-booking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -192,6 +165,8 @@
       <updated>1602665507613</updated>
       <workItem from="1602665508667" duration="1848000" />
       <workItem from="1602668413284" duration="3953000" />
+      <workItem from="1602832409481" duration="2393000" />
+      <workItem from="1602836899116" duration="2616000" />
     </task>
     <servers />
   </component>
@@ -203,7 +178,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -211,10 +192,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1602670351808">
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602837922625">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602670351808" />
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602837922625" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1602834147689">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602834147689" />
     <state x="663" y="391" key="Github.CreatePullRequestDialog" timestamp="1602668536174">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -239,9 +224,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602668728118" />
-    <state x="623" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602668901973">
+    <state x="740" y="237" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602832902124">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="406" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602668901973" />
+    <state x="740" y="237" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602832902124" />
+    <state x="623" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602833325242">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="406" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602833325242" />
   </component>
 </project>
