@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    List all the appointment is coming...
                 </div>
             </div>
         </div>

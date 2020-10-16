@@ -87,7 +87,7 @@ $(function () {
             },
             url: "{{ route('register') }}",
             data: formData,
-            success: () => window.location.assign("{{ route('home') }}"),
+            success: () => window.location.assign("{{ route('view') }}"),
             error: (response) => {
                 if(response.status === 422) {
                     let errors = response.responseJSON.errors;

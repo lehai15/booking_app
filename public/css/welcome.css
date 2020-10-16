@@ -1,0 +1,206 @@
+.search-bg {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.search {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(255, 255, 255, 0.1));
+    padding: 45px 0;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search h1 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #333;
+    line-height: 50px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    background: rgba(247, 216, 0, 0.6);
+    color: #fff;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.search-input img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+.search-input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50%;
+}
+
+.options {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
+    padding-top: 30px;
+}
+
+.options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.options ul li {
+    margin: 0;
+    padding: 5px;
+}
+
+.options a {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+}
+
+.options a:hover {
+    color: #45c3d2;
+}
+
+.options a div {
+    background: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 2px auto;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.appointment-bg {
+    background-color: #fff;
+}
+
+.appointment-form {
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    /*margin-top: 100px;*/
+    background: #ffffff;
+}
+
+.appointment-form .appoinment-title {
+    margin-bottom: 35px;
+}
+
+.appoinment-title span {
+    font-size: 15px;
+    color: #888888;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.appoinment-title h2 {
+    color: #111111;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.appointment-form form input {
+    font-size: 15px;
+    color: #666666;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.appointment-form form .datepicker {
+    position: relative;
+}
+
+.appointment-form form .datepicker i {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    font-size: 15px;
+    color: #666666;
+}
+
+.appointment-form form button {
+    width: 100%;
+}
+
+.appointment-form form .appoinment-btn {
+    font-size: 15px;
+    color: #ffffff;
+    background: #13a2b7;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 30px 12px;
+}
+
+@media (min-width: 400px) {
+    .search h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .search {
+        min-height: 60vh;
+    }
+    .search h1 {
+        font-size: 32px;
+    }
+    .search-form {
+        margin: 10px auto;
+        width: 40%;
+        min-width: 300px;
+        position: relative;
+        z-index: 2;
+        min-height: 15vh;
+    }
+}
+
+@media (min-width: 960px) {
+    .options a {
+        min-width: 150px;
+        font-size: 16px;
+    }
+}
+
+
